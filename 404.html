@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Graphics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type= "image/png" href="./icon/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="parallax-container">
+        <!-- Фоновые слои параллакса -->
+        <div class="parallax-layer layer-1"></div>
+        <div class="parallax-layer layer-2"></div>
+        <div class="parallax-layer layer-3"></div>
+        
+        <!-- Основной контент -->
+        <main class="content">
+            <section class="error-section">
+                <div class="error-content">
+                    <div class="error-number">
+                        <span class="neon-text">4</span>
+                        <span class="neon-text">0</span>
+                        <span class="neon-text">4</span>
+                    </div>
+                    <h1 class="error-title">Страница не найдена</h1>
+                    <p class="error-description">
+                        Похоже, мы не можем найти нужную вам страницу. Возможно, она была перемещена или удалена.
+                    </p>
+                    <div class="error-actions">
+                        <a href="/" class="cta-button">
+                            <i class="fas fa-home"></i>
+                            На главную
+                        </a>
+                            <a href="https://vk.com/id8926031" class="cta-button outline">
+                            <i class="fas fa-envelope"></i>
+                            Написать нам
+                        </a>
+                    </div>
+                    <div class="error-search">
+                        <form class="search-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Поиск по сайту...">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="error-visual">
+                    <div class="broken-cube">
+                        <div class="cube-face face-front"></div>
+                        <div class="cube-face face-back"></div>
+                        <div class="cube-face face-right"></div>
+                        <div class="cube-face face-left"></div>
+                        <div class="cube-face face-top"></div>
+                        <div class="cube-face face-bottom"></div>
+                    </div>
+                    <div class="shards">
+                        <div class="shard shard-1"></div>
+                        <div class="shard shard-2"></div>
+                        <div class="shard shard-3"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="copyright">© 2025 Цыкин Илья. Все права защищены.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
